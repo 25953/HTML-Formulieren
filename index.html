@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+        <title>HTML Formulieren</title> 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Kevin Kranenburg">
+    <meta name="Klas" content="MG1A">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body style="background-color:#d5d5d5;">
+<div class="font">
+    <h1>Een plan voor jouw ontwikkeling</h1>
+
+    <p>Om een eerste stap te zetten naar een persoonlijke ontwikkeling zul je eerst een paar vragen voor jezelf moeten beantwoorden. Dit formulier helpt jou daar bij.</p>
+
+    <form>
+        <b>Naam</b> <input type = "text" name="Naam" />
+        <select name="Klas">
+        <option value="Selecteer je klas">Selecteer je klas</option>
+        <option value="MG1A">MG1A</option>
+        <option value="MG1B">MG1B</option>
+        <option value="MG1C">MG1C</option>
+        <option value="MG1D">MG1D</option>
+        </select>
+    </form>
+<br>
+<div class="box1">
+    <fieldset>
+    <legend><b>Welbevinden</b></legend>
+    <br>
+    <a>Hoe positief ben je op dit moment over je opleiding?</a>
+    <form>
+        <input type="radio" name="0">0 
+        <input type="radio" name="0">1
+        <input type="radio" name="0">2
+        <input type="radio" name="0">3
+        <input type="radio" name="0">4
+        <input type="radio" name="0">5
+        <input type="radio" name="0">6
+        <input type="radio" name="0">7
+        <input type="radio" name="0">8
+        <input type="radio" name="0">9
+        <input type="radio" name="0">10
+    </form>
+
+    <br>
+    <a>Hoe gemotiveerd ben je om je opleiding af te maken?</a>
+    <form>
+        <input type="radio" name="0">0 
+        <input type="radio" name="0">1
+        <input type="radio" name="0">2
+        <input type="radio" name="0">3
+        <input type="radio" name="0">4
+        <input type="radio" name="0">5
+        <input type="radio" name="0">6
+        <input type="radio" name="0">7
+        <input type="radio" name="0">8
+        <input type="radio" name="0">9
+        <input type="radio" name="0">10
+    </form>
+
+    <br>
+    <a>Hoeveel vertrouwen heb je momenteel in je eigen kunnen?</a>
+    <form>
+        <input type="radio" name="0">0 
+        <input type="radio" name="0">1
+        <input type="radio" name="0">2
+        <input type="radio" name="0">3
+        <input type="radio" name="0">4
+        <input type="radio" name="0">5
+        <input type="radio" name="0">6
+        <input type="radio" name="0">7
+        <input type="radio" name="0">8
+        <input type="radio" name="0">9
+        <input type="radio" name="0">10
+    </form>
+</div>
+</fieldset>
+
+<br>
+<div class="box1">
+    <fieldset>
+    <legend><b>Sterke kanten</b></legend>
+    <br>
+    <a>Wat zijn jouw sterke kanten?</a>
+    <form>
+        <input type="radio" name="0">Coderen in HTML/ CSS 
+        <input type="radio" name="0">Programmeren in Java
+        <input type="radio" name="0">Programmeren in JavaScript
+        <input type="radio" name="0">Planning
+        <input type="radio" name="0">Samenwerken
+    </form>
+</div>
+</fieldset>
+
+<br>
+<div class="box1">
+    <fieldset>
+    <legend><b>Nog te ontwikkelen</b></legend>
+    <br>
+    <a>Aan welke skills moet je nog aandacht besteden?</a>
+    <form>
+        <input type="radio" name="0">Coderen in HTML/ CSS 
+        <input type="radio" name="0">Programmeren in Java
+        <input type="radio" name="0">Programmeren in JavaScript
+        <input type="radio" name="0">Planning
+        <input type="radio" name="0">Samenwerken
+    </form>
+</div>
+
+<br>
+<div class="box1">
+    <textarea rows="12" cols="70" name="comment" form="usrform"> Wat zijn jouw plannen voor de toekomst...</textarea>
+</div>
+
+<div class="box1">
+        <fieldset>
+        <legend><b>Media of Game</b></legend>
+        <br>
+        <i><a>Dit is mijn zelf bedachte vraag</a></i>
+        <br>
+        <br>
+        <a>Wil je media of game development gaan doen en waarom?</a>
+        <form>
+            <input type="radio" name="0">Media development
+            <input type="radio" name="0">Game development
+        </form>
+        <br>
+        <textarea rows="12" cols="70" name="comment" form="usrform">Wat is de reden voor je keuze...</textarea>
+        <input type="submit" value="Verstuur formulier" />
+    </div>
+
+    <div id="validatie">
+            <a href="http://validator.w3.org/check?uri=referer" target="_blank">
+                <img src="https://blanken5.home.xs4all.nl/afb/valid-html5-blue.png" alt="Valide HTML5"></a>
+            <a href="http://jigsaw.w3.org/css-validator/check/referer" target="_blank">
+                <img src="http://jigsaw.w3.org/css-validator/images/vcss-blue.gif" alt="Valide CSS">
+            </a>
+        </div>
+
+</body>
+</html>
